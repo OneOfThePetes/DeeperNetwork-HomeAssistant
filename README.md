@@ -1,6 +1,6 @@
 # DeeperNetwork-HomeAssistant
 
-This solution requires the HA Community addon "SSH & Web Terminal", and also requires passwordless SSH set up with a public and private key. 
+This solution requires the HA Community addon "SSH & Web Terminal" (not "Terminal & SSH"), and also requires passwordless SSH set up with a public and private key. 
 
 This is because the HA container cannot handle OpenSSL which is needed to encode your password before sending it to the deeper device to login.
 
