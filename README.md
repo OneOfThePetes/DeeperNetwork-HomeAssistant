@@ -14,6 +14,8 @@ Store the deeper device public key (deeper.pub) in /config/keys/deeper
 
 ![image](https://user-images.githubusercontent.com/42836083/212470513-e0254d00-aef8-43ca-bbc5-2ea73421b311.png)
 
-Password is stored in /config/secrets.yaml like this: deeper_password: YoUr-P@55w0rd
+Password is stored in /config/secrets.yaml like this: 
+
+deeper_password: YoUr-P@55w0rd
 
 ![image](https://user-images.githubusercontent.com/42836083/212444870-33fc9385-1c99-484b-b100-90804d091c3f.png)
