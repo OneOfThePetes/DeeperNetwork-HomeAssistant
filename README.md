@@ -18,4 +18,6 @@ Password is stored in /config/secrets.yaml like this:
 
 deeper_password: YoUr-P@55w0rd
 
+Don't forget to make your deeper.sh file executable (chmod 755 deeper.sh)
+
 ![image](https://user-images.githubusercontent.com/42836083/212444870-33fc9385-1c99-484b-b100-90804d091c3f.png)
