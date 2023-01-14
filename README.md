@@ -6,7 +6,7 @@ This is because the HA container cannot handle OpenSSL which is needed to encode
 
 I used PuttyGen to generate my key pair - and also used PuttyGen to convert my .ppk file to a .pem file.
 
-Store the SSH private key (.pem) and SSH public key in (.pub) /config/keys/SSH
+Store the SSH private key (HA-Private.pem) and SSH public key in (HA-Public.pub) /config/keys/SSH
 
 ![image](https://user-images.githubusercontent.com/42836083/212470493-2a2209ae-3d76-4059-8d1c-3b18ff48745e.png)
 
