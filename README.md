@@ -20,7 +20,7 @@ deeper_password: YoUr-P@55w0rd
 
 Don't forget to make your deeper.sh file executable (chmod a+x deeper.sh)
 
-![image](https://user-images.githubusercontent.com/42836083/212444870-33fc9385-1c99-484b-b100-90804d091c3f.png)
+![image](https://user-images.githubusercontent.com/42836083/213889023-003cbf9e-2323-4594-83f2-27d863441bbd.png)
 
 Usage: 
 
