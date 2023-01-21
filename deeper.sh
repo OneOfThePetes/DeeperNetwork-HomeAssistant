@@ -45,6 +45,12 @@ select_endpoint() {
         channelBalance)
             stub="betanet/getChannelBalance"
         ;;
+        deviceId | SN)
+            stub="system-info/hardware-info"
+        ;;        
+        latestVersion | currentVersion)
+            stub="system-info/get-latestversion"
+        ;;              
         *)
             echo "ERROR: Unknown key" >&2
             exit 1
@@ -63,8 +69,8 @@ request_data() {
 }
 
 main() {
-    local key_name=${1}
-    local ip_addr=${2}
+    local ip_addr=${1}
+    local key_name=${2}
 
     endpoint=$(select_endpoint ${key_name})
     password_plain=$(get_secrets_value ${secrets_key_name} ${secrets_file_location})
@@ -77,11 +83,14 @@ main() {
 
 main "${@}"
 
-# Usage : ./deeper.sh [key] [IP Address of Deeper Device]
+# Usage : ./deeper.sh [IP Address of Deeper Device] [key]
 # 
 # Keys are:
 #
-# balance / credit / channelBalance / consumed / shared
+# balance / credit / channelBalance / 
+# consumed / shared / 
+# deviceId / SN /
+# latestVersion / currentVersion
 # 
 # Credits (Thanks for the help! I couldn't have done this without you!!!)
 # Zoom (Deeper Network Discord)
