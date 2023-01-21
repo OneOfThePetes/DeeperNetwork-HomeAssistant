@@ -31,3 +31,5 @@ ssh root@SSH-HOST -p SSH PORTNUMBER -i /path/to/private.pem -o StrictHostKeyChec
 example:
 
 ssh root@homeassistant.local -p 22 -i /config/keys/SSH/HA-Private.pem -o StrictHostKeyChecking=no 'bash ./config/shell_scripts/deeper.sh 192.168.0.10 channelBalance'
+
+These commands need to be added into a YAML file as a sensor. Examples included hereL https://github.com/OutOfThisPlanet/DeeperNetwork-HomeAssistant/blob/main/example-sensors.yaml
