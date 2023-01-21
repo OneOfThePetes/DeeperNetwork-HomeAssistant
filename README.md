@@ -21,3 +21,13 @@ deeper_password: YoUr-P@55w0rd
 Don't forget to make your deeper.sh file executable (chmod a+x deeper.sh)
 
 ![image](https://user-images.githubusercontent.com/42836083/212444870-33fc9385-1c99-484b-b100-90804d091c3f.png)
+
+Usage: 
+
+ssh root@SSH-HOST -p SSH PORTNUMBER -i /path/to/private.pem -o StrictHostKeyChecking=no 'bash ./config/shell_scripts/deeper.sh IPADDRESS PROPERTY'
+
+(PROPERTY can be: balance, credit, channelBalance, consumed, shared, deviceId, SN, latestVersion, currentVersion)
+
+example:
+
+ssh root@homeassistant.local -p 22 -i /config/keys/SSH/HA-Private.pem -o StrictHostKeyChecking=no 'bash ./config/shell_scripts/deeper.sh IPADDRESS channelBalance'
