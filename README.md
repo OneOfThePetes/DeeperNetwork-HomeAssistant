@@ -10,6 +10,8 @@ Rename, and store the SSH private key (HA-Private.pem) and SSH public key (HA-Pu
 
 ![image](https://user-images.githubusercontent.com/42836083/212470493-2a2209ae-3d76-4059-8d1c-3b18ff48745e.png)
 
+Issue command: chmod 600 HA-Private.pem
+
 Store the deeper device public key (deeper.pub) in /config/keys/deeper
 
 ![image](https://user-images.githubusercontent.com/42836083/212470513-e0254d00-aef8-43ca-bbc5-2ea73421b311.png)
