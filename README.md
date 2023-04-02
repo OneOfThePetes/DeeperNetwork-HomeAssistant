@@ -35,3 +35,5 @@ example:
 ssh root@homeassistant.local -p 22 -i /config/keys/SSH/HA-Private.pem -o StrictHostKeyChecking=no 'bash ./config/shell_scripts/deeper.sh 192.168.0.10 channelBalance'
 
 These commands need to be added into a YAML file as a sensor. Examples included here: https://github.com/OutOfThisPlanet/DeeperNetwork-HomeAssistant/blob/main/example-sensors.yaml
+
+![image](https://user-images.githubusercontent.com/42836083/229381386-e40f4e3d-b573-49e4-9ac9-058a2b3bea03.png)
