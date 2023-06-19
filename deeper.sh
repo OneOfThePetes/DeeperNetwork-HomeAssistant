@@ -2,7 +2,7 @@
 set -euo pipefail
 
 api_username=admin
-path_public_key=/config/keys/deeper/deeper.pub
+path_public_key=/config/keys/deeper/deeper-old.pem
 secrets_key_name=deeper_password
 secrets_file_location=/config/secrets.yaml
 
