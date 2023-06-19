@@ -1,4 +1,4 @@
-# DeeperNetwork-HomeAssistant
+# DeeperNetwork-HomeAssistant   (ARCHIVED - NO LONGER IN DEVELOPMENT)
 
 This solution requires the HA Community addon "SSH & Web Terminal" (not "Terminal & SSH"), and also requires passwordless SSH set up with a public and private key. 
 
